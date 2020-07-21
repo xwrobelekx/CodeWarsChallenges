@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Day 1 - Century from year'/>
+        <page name='Day 2 - Count the monkeys'/>
+        <page name='Day 3 - Sum mixes array'/>
+        <page name='Day 4 - The sum of positive'/>
+        <page name='Day 5 - convert numbers to reversed arry of digits'/>
+        <page name='Day 6 - Calculate BMI'/>
+        <page name='Day 7 -  Count the digit 7kyu'/>
+        <page name='Day 8 - Alfabetical addition - NOT DONE'/>
+        <page name='Day 9 - Easy Wallpaper'/>
+        <page name='Day 10 - Invite more Woman'/>
+        <page name='Day 11 - Convert numbers to reversed array of digits'/>
+        <page name='Day 12 - Sum of odd numbers 7kyu'/>
+        <page name='Day 13 - Dollars and cents.'/>
+        <page name='Day 14 - To SQRT or not to SQRT'/>
+        <page name='Day15 - Descending order'/>
+        <page name='Day 16- Stacked Balls 2D'/>
+        <page name='Day 17 - Countining in the Amazon'/>
+        <page name='Day 18 - Odder than thre rest'/>
+        <page name='Day 19 - Spacify'/>
+        <page name='Day 20 - Daily coding problem'/>
+        <page name='Big O Notation'/>
+        <page name='Day 21 - Flatten and sort an array'/>
+        <page name='Day 22 - Drying Potatoes'/>
+        <page name='Day 23 - Linked List, get the Nth node'/>
+        <page name='Day 24 - Growing Plant'/>
+        <page name='Day 25 - Sum of integers in String'/>
+        <page name='Day 26 - Find the Parity Outlier 6kyu'/>
+        <page name='Day 27 - Linked List Append'/>
+        <page name='Day 28 - Expressions Matter 8kyu'/>
+        <page name='Day 29 - Are they the same? 6kyu'/>
+        <page name='Day 30 - English beggars 6kyu - not done'/>
+        <page name='Day 31 - Triangular Treasure'/>
+        <page name='Day 32 - Mulitples of 3 or 5 6KYU'/>
+        <page name='Day 33 - Printer Errors 7kyu'/>
+        <page name='Day 34 - JAyden Casing Strings 7kyu'/>
+        <page name='Day Random 1 Find the first non-consecutive number 8kyu'/>
+        <page name='Day Random 2 - find duplicates 6kyu'/>
+        <page name='July 10th - compare arrays 6kyu'/>
+        <page name='July 14th bad binnary 8kyu'/>
+        <page name='July 14th - 2 longest consecutive string 6kyu'/>
+        <page name='july 20th - bitcounting 6kyu'/>
+        <page name='july 21st - shortest word 7kyu'/>
+    </pages>
+</playground>
