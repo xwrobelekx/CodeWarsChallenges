@@ -23,4 +23,4 @@ This page represents my daily code challanges which focuse on:
 Checkout [Code Wars](http://codewars.com) for yourself.
 
 ### My current rank:
-![rank][https://www.codewars.com/users/xwrobelekx/badges/small]
+![rank](https://www.codewars.com/users/xwrobelekx/badges/small)
