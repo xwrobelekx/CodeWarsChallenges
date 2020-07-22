@@ -67,9 +67,9 @@ func hexStringToRGB(_ str:String) -> RGB {
     
     // now i just need to go thru those numbers and mulitply the first one by 16, amd the second one by 1 then ad them together and so on
     
-    var red = (arrayOfNumber[0] * 16) + (arrayOfNumber[1])
-    var green = (arrayOfNumber[2] * 16) + (arrayOfNumber[3])
-    var blue = (arrayOfNumber[4] * 16) + (arrayOfNumber[5])
+    let red = (arrayOfNumber[0] * 16) + (arrayOfNumber[1])
+    let green = (arrayOfNumber[2] * 16) + (arrayOfNumber[3])
+    let blue = (arrayOfNumber[4] * 16) + (arrayOfNumber[5])
     
   return RGB(red, green, blue)
 }
