@@ -29,11 +29,11 @@ import Foundation
  */
 
 
-var k = [1, 2, 3, 4]
-k.reverse()
-k.swapAt(0, 3)
-k.reverse()
-print(k)
+//var k = [1, 2, 3, 4]
+//k.reverse()
+//k.swapAt(0, 3)
+//k.reverse()
+//print(k)
 
 
 
@@ -43,23 +43,32 @@ func nextBigger(num: Int) -> Int? {
     var reversedNumberArray = String(num).compactMap {Int(String($0))}
     reversedNumberArray.reverse()
     
-    var startingNum = reversedNumberArray[0]
+    var results : [Int] = []
     
-    for (index, number) in reversedNumberArray.enumerated() {
-        if startingNum > number {
-            reversedNumberArray.swapAt(index, index - 1)
-            reversedNumberArray.reverse()
-            var joinedNumber = reversedNumberArray.map {"\($0)"}.reduce(""){$0 + $1}
-            return Int(joinedNumber)!
-            
-        } else {
-            startingNum = number
+    for (ind, n) in reversedNumberArray.enumerated() {
+        print("n: \(n), ind: \(ind)")
+        
+        for (index, number) in reversedNumberArray.enumerated() {
+            print("n: \(n), index: \(index), number: \(number)")
+            if n > number && index >= ind {
+                print("here bc \(n) > \(number) && \(index) >= \(ind)")
+                reversedNumberArray.swapAt(ind, index)
+                reversedNumberArray.reverse()
+                let joinedNumber = reversedNumberArray.map {"\($0)"}.reduce(""){$0 + $1}
+                print(joinedNumber)
+                //return Int(joinedNumber)!
+                results.append(Int(joinedNumber)!)
+            } else {
+                
+            }
         }
     }
-    return -1
+    
+    return results.sorted()[0]
 }
 
-nextBigger(num: 6746544)
+//nextBigger(num: 6746544)
+nextBigger(num: 144) // returns 441, should 414 so its giving me right results but i need the second one or smaller one
 
 /*
  //Other Solutions:
