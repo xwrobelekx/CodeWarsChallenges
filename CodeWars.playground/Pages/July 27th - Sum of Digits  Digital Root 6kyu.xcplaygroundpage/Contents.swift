@@ -45,6 +45,7 @@ func digitalRoot(of number: Int) -> Int {
 digitalRoot(of: 456)
 
 
+
 /*
  //Other Solutions
  
