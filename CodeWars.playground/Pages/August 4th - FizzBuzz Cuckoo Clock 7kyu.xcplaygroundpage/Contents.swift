@@ -35,7 +35,7 @@ import XCTest
 func fizzBuzzCuckooClock(_ time: String) -> String {
     //first extract hour and min from string
     
-    var hour = Int(String(time.prefix(2)))!/
+    var hour = Int(String(time.prefix(2)))!
     let minute = Int(String(time.suffix(2)))!
     var result = "tick"
     
