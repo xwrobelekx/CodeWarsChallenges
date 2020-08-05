@@ -55,5 +55,7 @@
         <page name='August 3rd - reverse a string 8kyu'/>
         <page name='August 4th - FizzBuzz Cuckoo Clock 7kyu'/>
         <page name='Working with Strings - Examples'/>
+        <page name='August 5th - Persistent bugger - 6kyu'/>
+        <page name='Higher Order functions examples'/>
     </pages>
 </playground>
