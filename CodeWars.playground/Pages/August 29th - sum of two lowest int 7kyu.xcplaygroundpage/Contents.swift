@@ -53,13 +53,11 @@ sumOfTwoSmallestIntegersIn([5, 5, 12, 44, 22])//, 13)
 
 
 
-/*
+
 import XCTest
 
 class SolutionTest: XCTestCase {
-    static var allTests = [
-        ("Basic tests", basicTests),
-    ]
+
 
     func basicTests() {
         XCTAssertEqual(sumOfTwoSmallestIntegersIn([5, 8, 12, 18, 22]), 13)
@@ -70,11 +68,8 @@ class SolutionTest: XCTestCase {
     }
 }
 
-XCTMain([
-    testCase(SolutionTest.allTests)
-])
+SolutionTest.defaultTestSuite.run()
 
-*/
 
 
 

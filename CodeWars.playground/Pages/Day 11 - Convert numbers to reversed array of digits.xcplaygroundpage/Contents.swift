@@ -32,7 +32,7 @@ func digitize(_ num:Int) -> [Int] {
 
 //no reversed
 
-func digitize(_ num:Int) -> [Int] {
+func digitize2(_ num:Int) -> [Int] {
     
     //Solution 1
 //    var arrayOfNumbers = [String]()
