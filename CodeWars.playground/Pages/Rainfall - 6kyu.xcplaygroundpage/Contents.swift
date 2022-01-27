@@ -16,23 +16,38 @@ let data =
 
 
 
+//puts it in the array
+let record = data.components(separatedBy: "\n")
 
+let rome = record.first(where: {$0.hasPrefix("Rome:")})
+
+
+print(rome)
+
+
+
+
+func temperatures(fromData d: String, forCity town: String) -> [Double] {
+  guard let record = d.components(separatedBy: "\n").first(where: { $0.hasPrefix("\(town):") }) else {
+    return [Double]()
+  }
+  
+  return record.components(separatedBy: ",").map { Double($0.components(separatedBy: " ")[1])! }
+}
 
 func mean(_ d : String, _ town: String) -> Double {
-    // your code
-    
-    //convert the data into dictionary
-    
-    
-    
-    
-    
-    return 1.0
+  let temps = temperatures(fromData: d, forCity: town)
+  return temps.isEmpty ? -1 : temps.reduce(0, +) / Double(temps.count)
 }
+
 func variance(_ d : String, _ town: String) -> Double {
-    // your code
-    return 1.0
+  let meanVal = mean(d, town)
+  let temps = temperatures(fromData: d, forCity: town)
+  
+  return temps.isEmpty ? -1 : temps.map { pow($0 - meanVal, 2) }.reduce(0, +) / Double(temps.count)
 }
+
+
 
 
 
