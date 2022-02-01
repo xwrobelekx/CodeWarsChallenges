@@ -3,7 +3,7 @@
 This page represents my daily code challanges which focuse on:
 
   - Swift programming language.
-  - Dart origramming language (occasionally).
+  - Dart prigramming language (occasionally).
 
 ### Organization:
 
