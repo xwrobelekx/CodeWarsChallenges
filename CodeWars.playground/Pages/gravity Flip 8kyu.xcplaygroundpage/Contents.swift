@@ -10,6 +10,7 @@ import Foundation
  */
 
 //MARK: - My Solution
+
 func flip(_ direction: String, _ a: [Int]) -> [Int] {
   switch direction {
     case "L":
@@ -18,12 +19,25 @@ func flip(_ direction: String, _ a: [Int]) -> [Int] {
     case "R" :
     return a.sorted()
     
-    default:
-    return []
+  default:
+      return []
   }
 }
 
+// MARK: - Other Solutions
 
+/*
+ func flip(_ direction: String, _ a: [Int]) -> [Int] {
+    return a.sorted(by: direction == "L" ? (>) : (<))
+ }
+ 
+ func flip(_ direction: String, _ a: [Int]) -> [Int] {
+     return direction == "R" ? a.sorted() : a.sorted().reversed()
+ }
+ 
+ 
+ 
+ */
 
 // MARK: - Tests
 
