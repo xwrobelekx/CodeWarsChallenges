@@ -31,7 +31,7 @@ func getNth(_ head: Node?, _ index: Int) throws -> Node? {
     
     
     
-
+return nil
 }
 
 
