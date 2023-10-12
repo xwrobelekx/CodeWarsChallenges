@@ -4,13 +4,12 @@ import Foundation
 
 // Square every digit - 7kyu
 // Link: https://www.codewars.com/kata/546e2562b03326a88e000020
-
 // Objective: Square every digit of a number and concatenate them.
  
 // Example:
 // 9119, returns 811181, because 9 squared is 81 and 1 squared is 1. 9-1-1-9 -> 81-1-1-81
 
-// My approach:
+// MY approach:
 // 1. Capture number locally in a var so it can be manipulated
 // 2. Create placeholder array to store each digit - after the maths is performed
 // 3. Run a while loop on the number until its exhausted.
