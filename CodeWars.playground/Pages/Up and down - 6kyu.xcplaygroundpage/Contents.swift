@@ -3,6 +3,7 @@
 import Foundation
 
 // Up AND Down 8kyu
+// Link: unknown
 
 // Objective: Given a String, return a String with every other word uppercased.
 // Example: Given: Hello World. How are you? Return: hello, WORLD. how ARE you?
@@ -25,6 +26,7 @@ func arrange(_ s: String) -> String {
     
     return array.joined(separator: " ")
 }
+
 
 // MARK: - Tests:
 
