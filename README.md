@@ -37,10 +37,8 @@ This page represents my daily code challanges which focuse on:
 // Objective: Given direction of ether Left (L) or Right (R) sort the array (a) in corresponding order.
 
 // Example:
-/*
- * 'R', [3, 2, 1, 2]      ->  [1, 2, 2, 3]
- * 'L', [1, 4, 5, 3, 5 ]  ->  [5, 5, 4, 3, 1]
-*/
+// 'R', [3, 2, 1, 2]      ->  [1, 2, 2, 3]
+// 'L', [1, 4, 5, 3, 5 ]  ->  [5, 5, 4, 3, 1]
 
 // My approach:
 // 1. Switch on the direction
